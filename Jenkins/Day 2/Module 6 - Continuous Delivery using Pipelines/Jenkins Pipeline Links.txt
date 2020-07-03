@@ -1,0 +1,5 @@
+Build Pipeline - https://www.youtube.com/watch?v=zf6ogW0HKLY
+
+Declarative Pipeline-https://www.youtube.com/watch?v=s73nhwYBtzE
+
+https://jenkins.io/doc/tutorials/build-a-python-app-with-pyinstaller/

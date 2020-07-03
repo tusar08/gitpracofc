@@ -1,0 +1,17 @@
+Jenkins Installation:
+yum install java-1.8.0-openjdk.x86_64
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+yum install jenkins
+service jenkins start
+rpm -aq | grep -i jdk
+Remove 1.7 version
+
+- sudo yum remove <desired_java_version>
+Install 1.8 version
+
+- sudo yum install java-1.8.0-openjdk-devel
+Again start the service:
+service Jenkins start
+Get password and install selected plugins
+cat /var/lib/jenkins/secrets/initialAdminPassword
